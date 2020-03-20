@@ -1,0 +1,86 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<body>
+    <head>
+        <title>Designer</title>
+        <link rel="stylesheet" href="../css/designer.css">
+    </head>
+
+<body>
+    <div class="header">
+        <h1>Designer</h1>
+        <a href="cart.html" class="cart">your cart</a>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#">Shop all</a>
+                <ul>
+                    <li><a href="#">Custom</a></li>
+                </ul></li>
+            <li><a href="mens.html">Men</a>
+                <ul>
+                    <li><a href="#">Shop by Look</a></li>
+                    <li><a href="#">New Arrivals</a></li>
+                </ul></li>
+            <li><a href="#">Women</a>
+                <ul>
+                    <li><a href="#">Shop by Look</a></li>
+                    <li><a href="#">New Arrivals</a></li>
+                </ul></li>
+            <li><a href="#">Handbags</a>
+                <ul>
+                    <li><a href="#">Clutches</a></li>
+                    <li><a href="#">Messenger</a></li>
+                    <li><a href="#">Totes</a></li>
+                </ul></li>
+            <li><a href="#">Accessories</a>
+                <ul>
+                    <li><a href="#">Sunglasses</a></li>
+                    <li><a href="#">Scarves</a></li>
+                    <li><a href="#">Belts</a></li>
+                </ul></li>
+            <li><a href="#">Shoes</a> 
+                <ul>
+                    <li><a href="#">Season</a></li>
+                </ul></li>
+            <li><a href="#">Jewelry</a>
+                <ul>
+                    <li><a href="#">Watches</a></li>
+                </ul></li>
+            <li><a href="#">Press</a>
+                <ul>
+                    <li><a href="#">Fashion Shows</a></li>
+                    <li><a href="#">People</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Ad Campaigns</a></li>
+                </ul></li>
+        </ul>
+    </nav>
+
+    <div class="title">
+        Sign In
+    </div>
+    
+    <div class="signIn">
+        <form action="response.html" method="get">
+            <input type="text" name="username" id="uName"
+                    required
+                    autofocus
+                    placeholder="Username"
+                    title="Must contain a minimum of 3 upper and/or lower case letters"
+                    pattern="[a-zA-Z]{3,20}"
+                    />
+            <br><br>
+            <input type="text" name="password" id="pWord"
+                    required
+                    placeholder="Password"
+                    title="Password must 8-15 characters in length and be any letter, number and !@#$"
+                    pattern="[a-zA-Z0-9!@#$]{8,15}"
+                    />
+            <br><br>
+            <input type="submit" value="Login"/>
+    </div>
+
+</body>
+
+</html>
